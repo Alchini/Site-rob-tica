@@ -1,4 +1,4 @@
-# Site-rob-tica
+# Site-robótica
 
 Site desenvolvido utilizando html CSS, JS e Bootstrap. 
 
