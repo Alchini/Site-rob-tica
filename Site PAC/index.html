@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Andre Venera, Gustavo Alchini e Ryan">
+
+  <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="css/style.css">
+
+
+  <title>Constantine</title>
+</head>
+
+<body>
+
+
+  <nav id="nav" class="navbar navbar-expand-lg  navbar-dark bg-dark ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav bg-dark">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          <a class="nav-link" href="#video">Vídeo</a>
+          <a class="nav-link" href="#roteiro">Roteiro</a>
+          <a class="nav-link" href="#componentes">Componentes</a>
+          <a class="nav-link" href="#codigos">Códigos</a>
+          <a class="nav-link" href="#seguidor">Seguidor de linha</a>
+          <a class="nav-link" href="#integrantes">Integrantes</a>
+        </div>
+
+      </div>
+    </div>
+
+  </nav>
+
+
+  <div id="imagem"> <img src="imagens/logo.jpg" class="rounded mx-auto d-block rounded-circle" alt="Logo da equipe"
+      width="" style="width:35%; ">
+  </div>
+  <br>
+  <div id="video">
+    <br>
+
+    <br>
+    <div class="container py-4">
+      <h1 id="tituloVideo">Por que Robótica na TI?</h1>
+      <iframe width="854" height="480" src="https://www.youtube.com/embed/DEbGT5REff8" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen style="width:100%"></iframe>
+    </div>
+  </div>
+
+  <div id="roteiro">
+    <div class="container py-4">
+
+      <div class="p-5 mb-4 rounded-3">
+        <div class="container-fluid py-5">
+          <h1 class="display-5 fw-bold" style="margin-left: 40%; width:100%">Roteiro</h1>
+          <span class="navbar-text">O vídeo apresentado contém uma breve explicação sobre a origem da
+            palavra "robô",
+            originada da língua tcheca, falamos sobre os materiais que compõem um robô, como eles são utilizados nas
+            áreas industriais, domésticas etc.
+            As vantagens e as desvantagens da utilização de robôs também foi um tópico debatido, em questão de custo
+            benefício, mão de obra, programação do robô e outros. Apresentamos como a TI atua na programação do software
+            presentes nos robôs, e os tipos de software que são utilizados nos mesmos, finalizando o vídeo com uma curta
+            previsão sobre o desenvolvimento da robótica no futuro.
+
+            Para a criação do vídeo, os integrantes gravaram os áudios de seus respectivos tópicos, foi então utilizado
+            para a edição do vídeo o programa: Vegas Pro 18.0. Todos os vídeos e imagens utilizados de fundo foram
+            retirados da internet com licenciamento grátis para uso, o site Powtoon foi utilizado para pequenos trechos
+            do vídeo que envolviam animação.
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="componentes">
+        <div class="container py-4">
+
+      <div class="p-5 mb-4 rounded-3">
+        <div class="container-fluid py-5">
+          <h1 class="display-5 fw-bold" style="margin-left: 20%; width: 100%; ">Componentes usados em aula</h1>
+  </div>
+
+
+    <div id="arduino"> 
+      
+      <h4 style="margin-left: 45% ;">Arduino</h4>
+        <img src="imagens/Arduino Uno Rev 3.png" class="rounded mx-auto d-block rounded-circle" alt="Arduino"
+      width="80">
+    </div>
+      
+     <span class="textoarduino"> Utilizado no desenvolvimento de protótipos, permitindo o desenvolvimento de projetos autônomos.
+    </span>
+</div>
+
+
+    <div id="porta"> 
+      
+      <h4 style="margin-left: 42% ;">Placa de ensaio</h4>
+        <img src="imagens/breadboar.png" class="rounded mx-auto d-block rounded-circle" alt="Placa"
+      width="80">
+    </div>
+      
+     <span class="textoplaca"> Utilizada para fazer as conexões do circuito.
+    </span>
+</div>
+
+
+  
+    <div id="bateria"> 
+      
+      <h4 style="margin-left: 47.5% ;">Bateria</h4>
+        <img src="imagens/battery.png" class="rounded mx-auto d-block rounded-circle" alt="Bateria"
+      width="80">
+    </div>
+      
+     <span class="textobateria"> Utilizada para alimentar o circuito.
+    </span>
+</div>
+
+
+
+
+    <div id="motor"> 
+      
+      <h4 style="margin-left: 47.5% ;color: white;">Motor</h4>
+        <img src="imagens/dc-motor.png" class="rounded mx-auto d-block rounded-circle" alt="Motor"
+      width="80">
+    </div>
+      
+     <span class="textomotor"> Responsável pela movimentação do carrinho.
+    </span>
+</div>
+
+
+       <div id="ldr"> 
+      
+      <h4 style="margin-left: 48.3% ; color: white;">LDR</h4>
+        <img src="imagens/photoresistor.png" class="rounded mx-auto d-block rounded-circle" alt="Ldr"
+      width="80">
+    </div>
+      
+     <span class="textoldr"> Responsável pela movimentação dos motores através da luminosidade.
+    </span>
+</div>
+
+
+       <div id="resistor"> 
+      
+      <h4 style="margin-left: 47%; color: white;">Resistor</h4>
+        <img src="imagens/resistor.png" class="rounded mx-auto d-block rounded-circle" alt="Resistor"
+      width="80">
+    </div>
+      
+     <span class="textoresistor"> Responsável pela limitação da corrente elétrica, evitando picos de energia.
+    </span>
+</div>
+
+
+       <div id="led"> 
+      
+      <h4 style="margin-left: 48.5%; color: white;">Led</h4>
+        <img src="imagens/led.png" class="rounded mx-auto d-block rounded-circle" alt="Led"
+      width="80">
+    </div>
+      
+     <span class="textoled"> Utilizado para sinalização.
+    </span>
+</div>
+
+
+       <div id="ponte"> 
+      
+      <h4 style="margin-left: 47%; color: white;">Ponte H</h4>
+        <img src="imagens/H-Bridge.png" class="rounded mx-auto d-block rounded-circle" alt="Ponte"
+      width="80">
+    </div>
+      
+     <span class="textoponte"> Responsável pelo controle dos motores.
+    </span>
+</div>
+
+
+
+ <div id="codigos">
+        <div class="container py-4">
+      <div class="p-5 mb-4 rounded-3">
+        <div class="container-fluid py-5">
+          <h1 class="display-5 fw-bold" style="margin-left: 20%; width: 100%; ">Códigos desenvolvidos em aula</h1>
+  </div>
+  <span class="navbar-text" style="margin-left: 8%;">Aqui se encontra todos os codigos que desenvolvemos em aula utilizando o tinkercad, um site no qual podemos projetar e simular circuitos em Arduino, além de poder alterar toda a programação do mesmo.
+          </span>
+
+
+      <br>
+      <div class="semaforo">
+        <div id="cod" class="p-4 mb-3 bg-light rounded-4 text-white bg-dark">
+          <div class="container-fluid py-4">
+            <h1 class="display-5 fw-bold" style="width: 100%;">Semáforo</h1><br>
+        
+
+              <span class="navbar-text">
+                
+
+                    int LedVermelho = 8;<br>
+                    int LedAmarelo = 9; &emsp; //Declara as variáveis.<br>
+                    int LedVerde = 10;<br>
+                    void setup () {<br>
+                    <br>
+                      pinMode(LedVermelho, OUTPUT);<br>
+                      pinMode(LedAmarelo, OUTPUT); &emsp; //Declara as entradas.<br>
+                      pinMode(LedVerde, OUTPUT);<br>
+                    }<br>
+                    <br>
+                    void loop () {<br>
+                    <br>
+                      digitalWrite(LedVermelho, HIGH); &emsp; //Faz os leds acenderem durante 5 segundos sucessivamente.<br>
+                      delay(5000);<br>
+                      digitalWrite(LedVermelho, LOW);<br>  
+                      digitalWrite(LedVerde, HIGH);<br>
+                      delay(5000);<br> 
+                      digitalWrite(LedVerde, LOW);<br>
+                      digitalWrite(LedAmarelo, HIGH);<br>
+                      delay(1500);<br>
+                      digitalWrite(LedAmarelo, LOW);<br> 
+                    }
+              </span>
+          
+               <img src="imagens/semaforo.gif" style="width: 70%; margin-left: 15%;">
+         
+          </div>
+        </div>
+
+
+        <div class="luz">
+        <div id="cod" class="p-4 mb-3 bg-light rounded-4 text-white bg-dark">
+          <div class="container-fluid py-4">
+            <h1 class="display-5 fw-bold" style="width: 100%;">Luz de emergência</h1><br>
+            <span class="navbar-text">
+    
+                  int led = 10;<br>
+                  int ldr = A0; //Declara as variáveis.<br>
+                  int valorldr = 0;<br>
+                  <br>
+                  void setup() {<br>
+                    pinMode (led, OUTPUT);<br> 
+                    pinMode (ldr, INPUT); &emsp; //Declara as entradas.<br>
+                    Serial.begin(9600);<br> 
+                  }<br>
+                  <br>
+                  void loop() {<br>
+                     valorldr = analogRead (ldr); 
+                     Serial.println(valorldr);<br>
+                     <br>
+                     if((valorldr) < 500) {  &emsp; // Se o valor recebido pelo fotoresistor for menor que 500 (fotoresistor recebendo menos luz) o led liga. <br> 
+                      digitalWrite(led, HIGH);<br>
+                    }<br>  
+                    else{<br> 
+                      digitalWrite(led, LOW); &emsp; // Caso contário, ele desliga. <br>
+                    }     
+            </span>
+         
+            <img src="imagens/luz.gif" style="width: 70%; margin-left: 15%;">
+          </div>
+        </div>
+
+
+        <div class="motor">
+        <div id="cod" class="p-4 mb-3 bg-light rounded-4 text-white bg-dark">
+          <div class="container-fluid py-4">
+            <h1 class="display-5 fw-bold" style="width: 100%">Motor com dois sentidos</h1><br>
+            <span class="navbar-text">
+    
+                    int velMotor = 3;<br>
+                    int motorFrente = 2;<br>
+                    int motorTras = 4;<br>
+                    int vel = 255;<br>
+                    <br>
+                    <br>
+                    void setup()<br>
+                    {<br>
+                      pinMode(3, OUTPUT);<br>
+                      pinMode(2, OUTPUT);<br>
+                      pinMode(4, OUTPUT);<br>
+                      <br>
+                      analogWrite(3, 0);<br>
+                      digitalWrite(2, LOW);<br>
+                      digitalWrite(4, LOW);<br>
+                      <br>
+                    }<br>
+                    <br>
+                    void loop()<br>
+                    {<br>
+                      <br>
+                      //Sentido anti-horário<br>
+                      analogWrite(3, vel);<br>
+                      digitalWrite(2, HIGH);<br>
+                      digitalWrite(4, LOW);<br>
+                      delay(5000);<br>
+                      <br>
+                      //Desligando motor para inversão de sentido.<br>
+                      analogWrite(3, 0);<br>
+                      digitalWrite(2, LOW);<br>
+                      digitalWrite(4, LOW);<br>
+                      delay(100);<br>
+                      <br>
+                      //Sentido horário<br>
+                      analogWrite(3, vel);<br>
+                      digitalWrite(4, HIGH);<br>
+                      digitalWrite(2, LOW);<br>
+                      delay(5000);<br>
+                      <br>
+                       //Desligando motor para inversão de sentido.<br>
+                      analogWrite(3, 0);<br>
+                      digitalWrite(2, LOW);<br>
+                      digitalWrite(4, LOW);<br>
+                      delay(100);<br>
+                      <br>
+                    }
+            </span>
+                <img src="imagens/motor1.gif" style="width: 80%; margin-left: 10%;">
+          </div>
+        </div>
+
+
+                <div class="motorsentidos">
+        <div id="cod" class="p-4 mb-3 bg-light rounded-4 text-white bg-dark">
+          <div class="container-fluid py-4">
+            <h1 class="display-5 fw-bold" style="width: 100%">Motor com quatro sentidos</h1><br>
+            <span class="navbar-text">
+    
+                    int motor1  = 5;<br> 
+                    int motor2  = 4;<br>
+                    int motor3  = 6;<br>
+                    int motor4  = 7;<br>
+                    <br>
+                    void setup () {<br>
+                     pinMode(motor1, OUTPUT);<br>
+                     pinMode(motor2, OUTPUT);<br>
+                     pinMode(motor3, OUTPUT);<br>
+                     pinMode(motor4, OUTPUT);<br>
+                     pinMode(A1, INPUT_PULLUP);<br>
+                     pinMode(A2, INPUT_PULLUP);<br>
+                     pinMode(A3, INPUT_PULLUP);<br>
+                    <br>
+                    }<br>
+                    <br>
+                    void loop () {<br>
+                      if (digitalRead(A2) == HIGH) {<br>
+                        digitalWrite(5, HIGH);  &emsp;      //faz o motor ir para trás.<br>
+                        digitalWrite(4, LOW);<br>
+                        digitalWrite(6, HIGH);<br>
+                        digitalWrite(7, LOW);<br>
+                        <br>
+                      }<br> 
+                      else{<br>
+                        digitalWrite(5, LOW);<br>
+                        digitalWrite(4, HIGH);    &emsp;    //faz o motor ir para frente.<br>
+                        digitalWrite(6, LOW);<br>
+                        digitalWrite(7, HIGH);<br>
+                     }<br>
+                      {<br>
+                      if (digitalRead(A3) == LOW){<br>
+                        digitalWrite(5, HIGH);<br>
+                        digitalWrite(4, LOW);      &emsp;     // faz o motor ir para a direita.<br>
+                        digitalWrite(6, LOW);<br>
+                        digitalWrite(7, HIGH);<br>
+                      } <br>
+                      {<br>
+                      if (digitalRead(A1) == LOW){<br>
+                        digitalWrite(5, LOW);<br>
+                        digitalWrite(4, HIGH);    &emsp;     // faz o motor ir para a esquerda.<br>
+                        digitalWrite(6, HIGH);<br>
+                        digitalWrite(7, LOW);<br>
+                        } <br>
+                       }<br>
+                      }<br>
+                    }<br>
+            </span>
+          
+                <img src="imagens/motor2.gif" style="width: 80%; margin-left: 10%;">
+          </div>
+        </div>
+
+  
+ <div id="seguidor">
+        <div class="container py-4">
+      <div class="p-5 mb-4 rounded-3">
+        <div class="container-fluid py-5">
+          <h1 class="display-5 fw-bold" style="margin-left: 30%; width: 100%; ">Seguidor de linha</h1>
+  </div>
+  <span class="navbar-text" style="width: 100%;">Aqui é encontrado a estrutura do robô seguidor de linha, o robô segue o princípio de usar a luz como condutor, quando o sensor capta a linha branca, o robô entende a parte branca da linha como "1" se o robô não encontra a linha, o valor "0" é retornado, indicando que o sensor não esta na linha. O algoritimo PID foi implementado, que tem como objetivo de controlar o desempenho do robô para melhor a sua eficiência.
+          </span>
+      <br>
+          <div class="segue">
+        <div id="cod" class="p-4 mb-3 bg-light rounded-4 text-white bg-dark" >
+          <div class="container-fluid py-4" style="width: 100%">
+            <span class="navbar-text" style="width: 100%">
+                
+
+                    // Começamos definindo as portas do driver (é utilizado DEFINE ao invés de int ou float para economizar memória do arduino.<br>
+ O compilador substitui todas as variáveis pelo valor que definimos durante a compilação)//<br><br>
+
+#define PININ1 2<br>
+#define PININ2 4<br>
+#define PININ3 5<br>
+#define PININ4 7<br>
+#define PINENA 3<br>
+#define PINENB 6<br>
+<br>
+// Portas dos sensores<br>
+#define SENSOR1 A0<br>
+#define SENSOR2 A1<br>
+#define SENSOR3 A2<br>
+#define SENSOR4 A3<br>
+#define SENSOR5 A4<br>
+#define SENSOR6 A5<br>
+<br>
+// Valores de ajustes para o seguidor de linha, os valores foram e devem ser ajustados conforme a necessidade do robô.<br>
+<br>
+#define TRESHOLD 750   &emsp; &emsp;&emsp;&emsp;   // Valor de referencia para cor da linha branca<br>
+#define VELOCIDADE0 255 &emsp;&emsp;&emsp; // Valor de 0 a 255 e com seguinte leitura do sensor  (0 0 1 1 0 0)<br>
+#define VELOCIDADE1 210 &emsp;&emsp;&emsp;  // Valor de 0 a 255 e com seguinte leitura do sensor (0 0 1 1 1 0) <br>
+#define VELOCIDADE2 180 &emsp;&emsp;&emsp;  // Valor de 0 a 255 e com seguinte leitura do sensor (0 0 0 1 0 0) <br>
+#define VELOCIDADE3 150 &emsp;&emsp;&emsp;  // Valor de 0 a 255 e com seguinte leitura do sensor (0 0 0 1 1 0) <br> 
+#define VELOCIDADE4 100 &emsp;&emsp;&emsp;  // Valor de 0 a 255 e com seguinte leitura do sensor (0 0 0 1 1 1) <br>
+#define VELOCIDADE5 0   &emsp;&emsp;&emsp;&emsp;  // Valor de 0 a 255 e com seguinte leitura do sensor (0 0 0 0 1 0)<br> 
+#define VELOCIDADE6 0   &emsp;&emsp;&emsp;&emsp;   // Valor de 0 a 255 e com seguinte leitura do sensor (0 0 0 0 1 1) <br>
+#define VELOCIDADE7 100 &emsp;&emsp;&emsp;  // Valor de 0 a 255 e com seguinte leitura do sensor (0 0 0 0 0 1) <br>
+<br>
+#define RUNTIME 18500 &emsp;&emsp;&emsp;    // Valor em segundos no qual o robô vai executar o percurso<br> 
+<br>
+<br>
+//Aqui definimos os dados do PID<br>
+<br>
+float Kp = 10, Ki = 0, Kd = 0;<br>
+float error = 0, P = 0, I = 0, D = 0, valor_PID = 0;<br>
+float previous_error = 0, previous_I = 0;<br>
+int sensor[6] = {0, 0, 0, 0, 0, 0};<br>
+int velocidade_motor_inical = 100;<br>
+<br>
+<br>
+void setup() {<br>
+<br>
+  Serial.begin(9600);<br>
+<br>
+}<br>
+<br>
+void loop() {<br>
+  segueLinha();  &emsp; &emsp;    //Chamamos e executamos a função de seguir a linha <br>
+<br>
+}<br>
+<br>
+void controleMotor() { &emsp;&emsp;  // Criamos uma função para controle do driver de motor<br>
+  <br>
+  int velocidade_esquerda;<br>
+  int velocidade_direita;<br>
+<br>
+<br>
+<br>
+&emsp;&emsp;  // Definimos as portas digitais<br>
+  pinMode(PININ1, OUTPUT);<br>
+  pinMode(PININ2, OUTPUT);<br>
+  pinMode(PININ3, OUTPUT);<br>
+  pinMode(PININ4, OUTPUT);<br>
+  pinMode(PINENA, OUTPUT);<br>
+  pinMode(PINENB, OUTPUT);<br>
+<br>
+&emsp;&emsp;  // Ajustes motor da esquerda<br>
+  if (velocidade_esquerda < 0) {<br>
+    velocidade_esquerda = -velocidade_esquerda;<br>
+    digitalWrite (PININ3, HIGH);<br>
+    digitalWrite (PININ4, LOW);<br>
+  } else {<br>
+    digitalWrite (PININ3, LOW);<br>
+    digitalWrite (PININ4, HIGH);<br>
+  }<br>
+<br>
+&emsp;&emsp;  // Ajustes motor da direita<br>
+  if (velocidade_direita < 0) {<br>
+    velocidade_direita = -velocidade_direita;<br>
+    digitalWrite (PININ1, LOW);<br>
+    digitalWrite (PININ2, HIGH);<br>
+  } else {<br>
+    digitalWrite (PININ1, HIGH);<br>
+    digitalWrite (PININ2, LOW);<br>
+  }<br>
+<br>
+  analogWrite (PINENA, velocidade_esquerda);<br>
+  analogWrite (PINENB, velocidade_direita);<br>
+}<br>
+<br>
+void opcaoMotor() { &emsp;  &emsp;    //Função para controlar o motor com pre definições para testes.<br>
+  <br>
+  char option<br>
+  int velocidade_esquerda;<br>
+  int velocidade_direita;<br>
+<br>
+<br>  
+  switch (option) {<br>
+    case '6':&emsp;  // Caso 6 seja selecionado, o robô vira para a esquerda.<br>  
+      controleMotor(-velocidade_esquerda, velocidade_direita);<br>  
+      break;<br>  
+    case '4': &emsp; // Caso 4 seja selecionado, o robô vira vira para a direita.<br>  
+      controleMotor(velocidade_esquerda, -velocidade_direita);<br>  
+      break;<br>  
+    case '2': &emsp; // Caso 2 seja selecionado, o robô vai para trás.<br>  
+      controleMotor(-velocidade_esquerda, -velocidade_direita);<br>  
+      break;<br>  
+    case '8': &emsp; // Caso 8 seja selecionado, o robô vai para frente.<br>  
+      controleMotor(velocidade_esquerda, velocidade_direita);<br>  
+      break;<br>  
+    case '0':&emsp;  // Caso 0 seja selecionado, o robô para.<br>  
+      controleMotor(0, 0);<br>  
+      break;<br>  
+  }<br>  
+}<br>  
+<br>  
+bool paraMotor(long runtime, long currentTime) { &emsp;&emsp;   //Criado a função de parada do robô<br>  
+  <br>
+  if (millis() >= (runtime + currentTime)) {<br>
+    opcaoMotor('0', 0, 0); &emsp; //(Caso 0 é selecionado)<br>
+    int cont = 0;<br>
+    <br>
+    return false;<br>
+  }<br>
+  return true;<br>
+}<br>
+<br>
+void lerSensor(void) {<br>
+  &emsp;  &emsp;  // Função para leitura dos sensores<br>
+  Serial.print(analogRead(A0));<br>
+  Serial.print(' ');<br>
+  Serial.print(analogRead(A1));<br>
+  Serial.print(' ');<br>
+  Serial.print(analogRead(A2));<br>
+  Serial.print(' ');<br>
+  Serial.print(analogRead(A3));<br>
+  Serial.print(' ');<br>
+  Serial.print(analogRead(A4));<br>
+  Serial.print(' ');<br>
+  Serial.println(analogRead(A5));<br>
+  Serial.print(' ');<br>
+}<br>
+<br>
+ &emsp; &emsp;// Nesta parte, o codigo do PID passa a ser implementado.<br>
+void segueLinha(void)<br>
+{<br>
+    bool flag = true;<br>
+    long currentTime = millis();<br>
+<br>
+    while (flag)<br>
+    {<br>
+        flag = motorParado(RUNTIME, currentTime);<br>
+<br>
+        ler_valor_sensor();<br>
+        calcula_pid();<br>
+        controla_motor_pid();<br>
+    }<br>
+    opcaoMotor('0', 0, 0);<br>
+}<br>
+<br>
+void ler_valor_sensor()<br>
+{<br>
+    &emsp;  // Função criada para a leitura dos valores do sensor.<br>
+    &emsp;  // Se o valor lido for menor que valor definido no TRESHOLD,retornara 1, indicando que o sensor esta na linha<br>
+    &emsp;  // Se nao, retornara 0, indicando que o robô esta fora da linha.<br><br>
+    sensor[0] = analogRead(A0) <= TRESHOLD ? 1 : 0; <br>
+    sensor[1] = analogRead(A1) <= TRESHOLD ? 1 : 0;<br>
+    sensor[2] = analogRead(A2) <= TRESHOLD ? 1 : 0;<br>
+    sensor[3] = analogRead(A3) <= TRESHOLD ? 1 : 0;<br>
+    sensor[4] = analogRead(A4) <= TRESHOLD ? 1 : 0;<br>
+    sensor[5] = analogRead(A5) <= TRESHOLD ? 1 : 0;<br>
+<br>
+    if ((sensor[0] == 0) && (sensor[1] == 0) && (sensor[2] == 0) && (sensor[3] == 0) && (sensor[4] == 0) && (sensor[5] == 1))<br>
+    {<br>
+       &emsp; //Caso (0 0 0 0 0 1)<br>
+        error = 5;<br>
+    }<br>
+    else if ((sensor[0] == 0) && (sensor[1] == 0) && (sensor[2] == 0) && (sensor[3] == 0) && (sensor[4] == 1) && (sensor[5] == 1))<br>
+    {<br>
+       &emsp; //Caso (0 0 0 0 1 1)<br>
+        error = 4;<br>
+    }<br>
+    else if ((sensor[0] == 0) && (sensor[1] == 0) && (sensor[2] == 0) && (sensor[3] == 0) && (sensor[4] == 1) && (sensor[5] == 0))<br>
+    {<br>
+       &emsp; //Caso (0 0 0 0 1 0)<br>
+        error = 3;<br>
+    }<br>
+    else if ((sensor[0] == 0) && (sensor[1] == 0) && (sensor[2] == 0) && (sensor[3] == 1) && (sensor[4] == 1) && (sensor[5] == 0))<br>
+    {<br>
+      &emsp;  //Caso (0 0 0 1 1 0)<br>
+        error = 2;<br>
+    }<br>
+    else if ((sensor[0] == 0) && (sensor[1] == 0) && (sensor[2] == 0) && (sensor[3] == 1) && (sensor[4] == 0) && (sensor[5] == 0))<br>
+    {<br>
+       &emsp; //Caso (0 0 0 1 0 0)<br>
+        error = 1;<br>
+    }<br>
+    else if ((sensor[0] == 0) && (sensor[1] == 0) && (sensor[2] == 1) && (sensor[3] == 1) && (sensor[4] == 0) && (sensor[5] == 0))<br>
+    {<br>
+       &emsp; //Caso (0 0 1 1 0 0)<br>
+        error = 0;<br>
+    }<br>
+    else if ((sensor[0] == 0) && (sensor[1] == 0) && (sensor[2] == 1) && (sensor[3] == 0) && (sensor[4] == 0) && (sensor[5] == 0))<br>
+    {<br>
+       &emsp; //Caso (0 0 1 0 0 0)<br>
+        error = -1;<br>
+    }<br>
+    else if ((sensor[0] == 0) && (sensor[1] == 1) && (sensor[2] == 1) && (sensor[3] == 0) && (sensor[4] == 0) && (sensor[5] == 0))<br>
+    {<br>
+        &emsp;//Caso (0 1 1 0 0 0)<br>
+        error = -2;<br>
+    }<br>
+    else if ((sensor[0] == 0) && (sensor[1] == 1) && (sensor[2] == 0) && (sensor[3] == 0) && (sensor[4] == 0) && (sensor[5] == 0))<br>
+    {<br>
+       &emsp; //Caso (0 1 0 0 0 0)<br>
+        error = -3;<br>
+    }<br>
+    else if ((sensor[0] == 1) && (sensor[1] == 1) && (sensor[2] == 0) && (sensor[3] == 0) && (sensor[4] == 0) && (sensor[5] == 0))<br>
+    {<br>
+       &emsp; //Caso (1 1 0 0 0 0)<br>
+        error = -4;<br>
+    }<br>
+    else if ((sensor[0] == 1) && (sensor[1] == 0) && (sensor[2] == 0) && (sensor[3] == 0) && (sensor[4] == 0) && (sensor[5] == 0))<br>
+    {<br>
+        &emsp;//Caso (1 0 0 0 0 0)<br>
+        error = -5;<br>
+    }<br>
+    else if ((sensor[0] == 1) && (sensor[1] == 1) && (sensor[2] == 1) && (sensor[3] == 1) && (sensor[4] == 1) && (sensor[5] == 1))<br>
+    {<br>
+       &emsp; //Caso (1 1 1 1 1 1)<br>
+        error = 0;<br>
+    }<br>
+    else if ((sensor[0] == 0) && (sensor[1] == 0) && (sensor[2] == 0) && (sensor[3] == 0) && (sensor[4] == 0) && (sensor[5] == 0))<br>
+    {<br>
+       &emsp; //Caso (0 0 0 0 0 0)<br>
+    }<br><br>
+     Serial.print("Erro: ");<br>
+     Serial.print(error);<br>
+     Serial.print(", ");<br>
+}<br>
+<br>
+&emsp;&emsp;//O PID é calculado conforme o erro.<br>
+void calcula_pid()<br>
+{<br>
+    P = error;<br>
+    I = I + previous_I;<br>
+    D = error - previous_error;<br>
+<br>
+    valor_PID = (Kp * P) + (Ki * I) + (Kd * D);<br>
+<br>
+    previous_I = I;<br>
+    previous_error = error;<br>
+}<br>
+<br>
+//Controla os motores conforme valor do PID<br>
+void controla_motor_pid()<br>
+{<br>
+&emsp;&emsp; // Calcula a eficiência da velocidade do motor<br>
+    int velocidade_motor_esquerdo = velocidade_motor_inical - valor_PID;<br>
+    int velocidade_motor_direito = velocidade_motor_inical + valor_PID;<br>
+<br>
+&emsp;&emsp;    // Usada a função "constrain" para restringir a velocidade dos motores entre 0 e 255<br>
+    constrain(velocidade_motor_esquerdo, 0, 255);<br>
+    constrain(velocidade_motor_direito, 0, 255);<br>
+  <br>
+    Serial.print("Motor esquerda: ");<br>
+    Serial.print(velocidade_motor_esquerdo);<br>
+    Serial.print(" ");<br>
+    Serial.print("Motor direita: ");<br>
+    Serial.println(velocidade_motor_direito);<br>
+   <br>
+    controleMotor(velocidade_motor_esquerdo, velocidade_motor_direito);<br>
+}<br>
+<br>
+           
+     </span>
+                
+          </div>
+        </div>
+
+
+    
+
+
+  <div id="integrantes">
+    <br>
+
+    <main>
+
+      <br>
+      <div class="container py-4">
+        <h1 id="integrantesEquipe">Integrantes da Equipe</h1>
+        <div id="Andre" class="p-4 mb-4 bg-light rounded-3 text-white bg-dark">
+          <div class="container-fluid py-4">
+            <h1 class="display-5 fw-bold">André Luís De Souza Venêra</h1>
+            <span class="navbar-text">
+              Pesquisa das vantagens e o futuro da robótica no vídeo. Organização do roteiro do site. Pesquisa de implementação do codigo PID. 
+            </span>
+              <div id="imagemAndre"> <a href="https://www.instagram.com/andre_venera/" target="_blank"><img src="imagens/andre.jpg" class="rounded mx-auto d-block rounded-circle" alt="foto do Andre"
+        width="300" style="width: 50%" ></a>
+            </div>
+          </div>
+        </div>
+
+        <div id="Gustavo" class="p-4 mb-4 bg-light rounded-3 text-white bg-dark">
+          <div class="container-fluid py-4">
+            <h1 class="display-5 fw-bold">Gustavo Alchini</h1>
+            <span class="navbar-text">Edição do vídeo, pesquisa de vídeos e imagens para o vídeo.
+              Pesquisa para layout e estilo do site. Edição do site. Desenvolvimento do codigo do seguidor de linha.<br>
+            </span>
+             <div id="imagemGustavo"><a href="https://www.instagram.com/alq_gu  s/" target="_blank"> <img src="imagens/gustavo.jpg" class="rounded mx-auto d-block rounded-circle" alt="foto do pai"
+        width="300" style="width: 50%"></a>
+            </div>
+         </div>
+        </div>
+
+        <div id="Ryan" class="p-4 mb-4 bg-light rounded-3 text-white bg-dark">
+          <div class="container-fluid py-5">
+            <h1 class="display-5 fw-bold">Ryan Gustavo Hamann</h1>
+            <span class="navbar-text">
+              Criação do logotipo da equipe.
+              Pesquisa sobre desvantagens do uso da robótica, o uso dos softwares na robótica e narração destes temas
+              no vídeo. Verificação de possíveis erros no código do site.
+            </span> 
+              <div id="imagemRyan"> <a href="https://www.instagram.com/_ryangh/" target="_blank"><img src="imagens/ryan.jpg" class="rounded mx-auto d-block rounded-circle" alt="foto do Ryan"
+        width="300" style="width: 50%"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  </main>
+  </div>
+
+
+  <footer id="rodape">
+    <div class="container">
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
+        </ul>
+        <p class="text-center text-muted">&copy; 2022 Constantine Robotic Team</p>
+      </footer>
+    </div>
+  </footer>
+
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="js/jquery-3.6.0.min.js"></script>
+
+</body>
+
+</html>
